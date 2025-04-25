@@ -130,8 +130,8 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - two **UNIT** of the __same__ **RANK** can be merged to a higher **HIERARCHY**
 
 1. Peasant
-2. Spearman
-3. Swordman
+2. SpearMan
+3. SwordMan
 4. Knight
 
 > you can give each unit, it's own characteristic
