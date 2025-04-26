@@ -1,20 +1,20 @@
 <h1 align="center"><strong>Realm War Final Project</strong></h1>
 
 <p align="center">
-  <i>Grow your Kingdom and Dominate the Realms</i>
+  <i>Grow your game.core.Kingdom and Dominate the Realms</i>
 </p>
 
 ---
 
 ## **Project Introduction**
 Welcome to the **Realm War Game** project! This is your chance to create a graphical version of a game.
-Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
+Your mission? **Domainate Your Opponent's game.core.Kingdom Before They Dominate Yours!**
 
 ---
 
 ## **Game Entities**
 
-### **1. Blocks**
+### **1. game.blocks**
 
 #### ***Void block***
 - nothing can be placed inside of a void
@@ -25,7 +25,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - if absorbed into the kingdom, it would generate **GOLD** for the kingdom
 - if absorbed into the kingdom, a **STRUCTURE** can be built on top of it
 
-#### ***Forest Block***
+#### ***Forest game.blocks.Block***
 - it can be a strategic block in **BATTLES** between kingdom **UNITS**
 - if absorbed into the kingdom, it would generate **FOOD** for the kingdom
 - if absorbed into the kingdom, a **STRUCTURE** can be built on top of it(at the cost of ***losing*** the forest)
@@ -33,7 +33,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > if **UNITS** are starting **ATTACK** from the **FOREST**, they have an advantage of increased **ATTACK POWER**
 > if **UNITS** are defending an **ATTACK** while stationed in a **FOREST**, they have an advantage of increased **ATTACK POWER**
 
-### **2. Structures**
+### **2. game.structures**
 - each **STRUCTURE** has a **DURABILITY** of __n__ **HEALTH**
 - each **STRUCTURE** has a **MAINTENANCE COST** of __n__ **GOLD**
 - each **STRUCTURE** has a **LEVEL** and a **MAX LEVEL**
@@ -52,7 +52,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - FOOD (examlpe: 5 FOOD/TURN)
 - UNIT SPACE (examlpe: 5 UNIT SPACE)
 
-#### ***Barrack***
+#### ***game.structures.Barrack***
 - it can produce **UNIT**
 - it produces more **UNIT SPACE** as it **LEVEL UP**
 - each kingdom can have a maximum number of **BARRACKS**
@@ -69,7 +69,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > each level up adds to **STRUCTURES's DURABILITY**
 > building new **BARRACK** cost more **BUIDING COST** than the previous one (example: PREVIOUS_BUILDING_COST + 5) 
 
-#### ***Farm***
+#### ***game.structures.Farm***
 - it can produce **FOOD**
 - it produces more **FOOD** as it **LEVEL UP**
 - each kingdom can have a maximum number of **FARMS**
@@ -86,7 +86,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > each level up adds to **STRUCTURE's DURABILITY**
 > building new **FARM** costs more **GOLD** than the previous one (example: PREVIOUS_BUILDING_COST + 5) 
 
-#### ***Market***
+#### ***game.structures.Market***
 - it can produce **GOLD**
 - it produces more **GOLD** as it **LEVEL UP**
 - each kingdom can have a maximum number of **MARKETS**
@@ -103,7 +103,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > each level up adds to **STRUCTURES's DURABILITY**
 > building new **MARKET** cost more **GOLD** than the previous one (example: PREVIOUS_BUILDING_COST + 5)
 
-#### ***Tower***
+#### ***game.structures.Tower***
 - it defends it's neighboring kingdom blocks
 - lower level **UNITS** cannot get passed the **TOWER**'s blockade
 
@@ -117,7 +117,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - BUILDING COST (examlpe: 5 GOLD)
 - LEVEL UP COST (examlpe: 5 GOLD -> 10 GOLD)
 
-### **3. Units**
+### **3. game.units**
 - each **UNIT** has a **HIT POINT** of __n__ **HEALTH**
 - each **UNIT** has a **MOVEMENT RANGE** of __n__ **BLOCKS**
 - each **UNIT** has an **ATTACK POWER** of __n__ **DAMAGE**
@@ -126,13 +126,13 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - each **UNIT** has a **RATION** of __n__ **FOOD**
 - each **UNIT** takes a **UNIT SPACE** of __n__
 
-#### **Unit Hierarchy**
+#### **game.units.Unit Hierarchy**
 - two **UNIT** of the __same__ **RANK** can be merged to a higher **HIERARCHY**
 
-1. Peasant
-2. Spearman
-3. Swordman
-4. Knight
+1. game.units.Peasant
+2. game.units.Spearman
+3. game.units.Swordman
+4. game.units.Knight
 
 > you can give each unit, it's own characteristic
 
@@ -140,8 +140,8 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 
 ## **Gameplay Mechanics**
 
-- players take turns in developing there **Kingdom**
-- the first player to dominate the **opponent's Kingdom** wins the game
+- players take turns in developing there **game.core.Kingdom**
+- the first player to dominate the **opponent's game.core.Kingdom** wins the game
 
 ## **Requirements**
 
@@ -150,11 +150,11 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
   - Inheritance and polymorphism for units and structures
   - Encapsulation for entity properties
   - Abstract classes or interfaces for reusable behaviors
-- Each game entity (Block, Structure, Unit, etc.) should be implemented as a separate class.
+- Each game entity (game.blocks.Block, game.structures.Structure, game.units.Unit, etc.) should be implemented as a separate class.
 
 ### **Graphics**
 - The game must use JavaFX to build an interactive graphical user interface.
-- GUI should allow players to:
+- game.GUI should allow players to:
   - View the game board and its blocks, structures, and units
   - Click/select blocks to build, upgrade, or deploy units
   - Display real-time game stats (e.g., gold, food, unit capacity)
@@ -172,9 +172,9 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Database Integration**
 - A relational database (e.g., SQLite, MySQL, or PostgreSQL) must be used to store game data.
 - Persist the following:
-  - Player profiles and statistics
+  - game.core.Player profiles and statistics
   - Game states (to support saving and loading games)
-  - Structure and unit data
+  - game.structures.Structure and unit data
   - Logs of in-game actions (for debugging or replays)
 - Include functionality for:
   - Saving and loading ongoing games
