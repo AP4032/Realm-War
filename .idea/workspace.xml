@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb1696b2-174b-404b-ba31-e546f667d679" name="Changes" comment="blockP">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Realm-War.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/EmptyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/EmptyBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/ForestBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/ForestBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/VoidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/VoidBlock.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2wKSIIsVotw74bUBs0gQvRFoA9P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;block&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asal/Desktop/Realm-War&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb1696b2-174b-404b-ba31-e546f667d679" name="Changes" comment="" />
+      <created>1745788690775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745788690775</updated>
+    </task>
+    <task id="LOCAL-00001" summary="blockP">
+      <option name="closed" value="true" />
+      <created>1745790293043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745790293043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blockP" />
+    <option name="LAST_COMMIT_MESSAGE" value="blockP" />
+  </component>
+</project>
