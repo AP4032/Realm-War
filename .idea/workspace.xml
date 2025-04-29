@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1696b2-174b-404b-ba31-e546f667d679" name="Changes" comment="blockP">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Realm-War.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/EmptyBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/EmptyBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/ForestBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/ForestBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/Resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Block/src/main/java/Block/VoidBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Block/src/main/java/BlockP/VoidBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Block/Block.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlockP/src/main/java/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlockP/src/main/java/Block.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;block&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/asal/Desktop/Realm-War&quot;
   }
