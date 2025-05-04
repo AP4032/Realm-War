@@ -172,7 +172,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Database Integration**
 - A relational database (e.g., SQLite, MySQL, or PostgreSQL) must be used to store game data.
 - Persist the following:
-  - Player profiles and statistics
+  - Game profiles and statistics
   - Game states (to support saving and loading games)
   - Structure and unit data
   - Logs of in-game actions (for debugging or replays)
