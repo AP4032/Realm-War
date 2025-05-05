@@ -1,3 +1,8 @@
+package entities.blocks;
+
+import enums.BlockType;
+import utils.Position;
+
 /**
  * کلاس پایه برای تمام انواع بلوک‌های بازی
  */

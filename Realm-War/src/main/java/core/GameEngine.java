@@ -1,5 +1,7 @@
 package core;
 
+import java.util.List;
+
 /**
  * مدیریت اصلی بازی و چرخه نوبت‌ها
  */
