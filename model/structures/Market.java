@@ -1,4 +1,4 @@
-package structures;
+package model.structures;
 
 public class Market extends Structures{
     private int goldPerTurn;
