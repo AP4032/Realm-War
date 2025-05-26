@@ -1,4 +1,4 @@
-package realmwar;
+package model;
 
 public class Player {
 }

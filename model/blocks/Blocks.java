@@ -1,4 +1,4 @@
-package blocks;
+package model.blocks;
 
 public abstract class Blocks {
     protected int row, col;

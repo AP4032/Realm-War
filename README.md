@@ -104,7 +104,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > building new **MARKET** cost more **GOLD** than the previous one (example: PREVIOUS_BUILDING_COST + 5)
 
 #### ***Tower***
-- it defends it's neighboring kingdom blocks
+- it defends it's neighboring kingdom model.blocks
 - lower level **UNITS** cannot get passed the **TOWER**'s blockade
 
 > example: a level 1 tower can restrict a peasant, a level 2 tower can restrict a spearman and peasant, ...
@@ -147,7 +147,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 
 ### **Object-Oriented Design**
 - Proper use of OOP principles:
-  - Inheritance and polymorphism for units and structures
+  - Inheritance and polymorphism for model.units and model.structures
   - Encapsulation for entity properties
   - Abstract classes or interfaces for reusable behaviors
 - Each game entity (Block, Structure, Unit, etc.) should be implemented as a separate class.
@@ -155,18 +155,18 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Graphics**
 - The game must use JavaFX to build an interactive graphical user interface.
 - GUI should allow players to:
-  - View the game board and its blocks, structures, and units
-  - Click/select blocks to build, upgrade, or deploy units
+  - View the game board and its model.blocks, model.structures, and model.units
+  - Click/select model.blocks to build, upgrade, or deploy model.units
   - Display real-time game stats (e.g., gold, food, unit capacity)
-  - Highlight valid actions (e.g., movable units, buildable structures)
+  - Highlight valid actions (e.g., movable model.units, buildable model.structures)
 - Animations or visual feedback (e.g., attack effects, unit movement) are encouraged but optional.
 
 ### **Turn-Based System**
 - The game must support 2 to 4 players in a turn-based format.
 - Each player's turn includes:
-  - Resource generation (based on current structures and territories)
-  - Movement and actions of units
-  - Construction or upgrading of structures
+  - Resource generation (based on current model.structures and territories)
+  - Movement and actions of model.units
+  - Construction or upgrading of model.structures
 - Game logic must enforce turn order and prevent action outside of the player's turn.
 
 ### **Database Integration**
@@ -183,7 +183,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Error Handling and Validation**
 - The program must handle invalid input and unexpected scenarios gracefully.
 - Common errors to manage:
-  - Building structures on invalid blocks
+  - Building model.structures on invalid model.blocks
   - Exceeding unit space or resources
   - Attacking or moving out of turn
   - Saving or loading corrupted data

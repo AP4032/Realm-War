@@ -1,4 +1,4 @@
-package grid;
+package model.grid;
 
 public class Position {
 }
