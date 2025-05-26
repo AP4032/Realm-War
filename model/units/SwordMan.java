@@ -1,4 +1,19 @@
 package model.units;
 
-public class SwordMan extends Units{
+import units.Units;
+
+public class SwordMan extends Units {
+
+    public SwordMan(){
+        super(30,4, 4, 4, 4, 5, 1);
+    }
+
+    @Override
+    public void attack(Units target){
+        int hP = target.getHitPoint() - this.getAttackPower();
+        if( hP < 0) {
+            hP = 0;
+        }
+        target.setHitPoint(hP);
+    }
 }
