@@ -1,6 +1,8 @@
 package model.blocks;
 
-public class EmptyBlock extends Blocks{
+import java.awt.*;
+
+public class EmptyBlock extends Block {
 
     public EmptyBlock(int row, int col) {
         super(row,col);
@@ -14,6 +16,11 @@ public class EmptyBlock extends Blocks{
     @Override
     public String getType() {
         return "Empty Block";
+    }
+
+    @Override
+    public Color getColor() {
+        return Color.LIGHT_GRAY;
     }
 
     @Override

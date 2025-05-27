@@ -1,6 +1,8 @@
 package model.blocks;
 
-public class ForestBlock extends Blocks{
+import java.awt.*;
+
+public class ForestBlock extends Block {
 
     private boolean forestCut = false;
 
@@ -24,6 +26,11 @@ public class ForestBlock extends Blocks{
     @Override
     public String getType() {
         return "Forest Block";
+    }
+
+    @Override
+    public Color getColor() {
+        return forestCut ? Color.ORANGE : new Color(34, 139, 34);
     }
 
     @Override

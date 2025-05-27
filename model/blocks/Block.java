@@ -1,11 +1,13 @@
 package model.blocks;
 
-public abstract class Blocks {
+import java.awt.*;
+
+public abstract class Block {
     protected int row, col;
     protected boolean owned = false;
     protected String owner = null;
 
-    public Blocks(int row, int col) {
+    public Block(int row, int col) {
         this.row = row;
         this.col = col;
     }
@@ -32,6 +34,8 @@ public abstract class Blocks {
     }
 
     public abstract String getType();
+
+    public abstract Color getColor();
 
     public abstract boolean isBuildable();
 

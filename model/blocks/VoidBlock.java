@@ -1,6 +1,8 @@
 package model.blocks;
 
-public class VoidBlock extends Blocks{
+import java.awt.*;
+
+public class VoidBlock extends Block {
 
     public VoidBlock(int row, int col) {
         super(row,col);
@@ -14,6 +16,11 @@ public class VoidBlock extends Blocks{
     @Override
     public String getType() {
         return "Void Block";
+    }
+
+    @Override
+    public Color getColor() {
+        return Color.DARK_GRAY;
     }
 
     @Override
