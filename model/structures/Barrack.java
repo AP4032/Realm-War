@@ -1,5 +1,7 @@
 package model.structures;
 
+import model.Kingdom;
+
 public class Barrack extends Structures{
     private int UNIT_SPACE;
 
@@ -9,9 +11,10 @@ public class Barrack extends Structures{
 
     }
 
-//todo
-//   public void produce_unit(){
-//    }
+
+   public void createUnit(Kingdom kingdom, Unit unit){
+        kingdom.addUnit(unit);
+    }
 
 
 }
