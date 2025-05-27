@@ -8,6 +8,7 @@ public abstract class Structures {
     private int levelUpCost;
     private int buildingCost;
 
+
     public Structures(int durability, int maintenanceCost, int level, int maxLevel, int levelUpCost, int buildingCost) {
         this.durability = durability;
         this.maintenanceCost = maintenanceCost;
@@ -31,4 +32,9 @@ public abstract class Structures {
     public void setDurability(int durability) {
         this.durability = durability;
     }
+
+    public int getMaintenanceCost() {
+        return maintenanceCost;
+    }
+
 }
