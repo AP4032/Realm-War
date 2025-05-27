@@ -1,7 +1,7 @@
 package model;
 
-import units.Units;
-import model.structures.Structure;
+import model.units.Units;
+import model.structures.Structures;
 import model.Grid.Grid;
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ public class Kingdom {
     private int food;
     private int gold;
     private ArrayList<Units> units = new ArrayList<>();
-    private ArrayList<Structure> structures = new ArrayList<>();
+    private ArrayList<Structures> structures = new ArrayList<>();
 
 
 
@@ -21,7 +21,7 @@ public class Kingdom {
         return units;
     }
 
-    public void addUnit(Unit unit) {
+    public void addUnit(Units unit) {
         units.add(unit);
     }
 
@@ -41,7 +41,7 @@ public class Kingdom {
     public void deleteUnit(Units unit){
         units.remove(unit);
     }
-    public void deleteStructure(Structure structure){
+    public void deleteStructure(Structures structure){
         structures.remove(structure);
     }
 }
