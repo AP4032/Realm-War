@@ -1,29 +1,34 @@
 package model.structures;
 
-
-
-abstract class Structures {
-    int DURABILITY;
-    int MAINTENANCE_COST;
-    int LEVEL;
-    int MAX_LEVEL;
-    int LEVEL_UP_COST;
-    int BUILDING_COST;
+public abstract class Structures {
+    private int durability;
+    private int maintenanceCost;
+    private int level;
+    private int maxLevel;
+    private int levelUpCost;
+    private int buildingCost;
 
     public Structures(int durability, int maintenanceCost, int level, int maxLevel, int levelUpCost, int buildingCost) {
-        this.DURABILITY = durability;
-        this.MAINTENANCE_COST = maintenanceCost;
-        this.LEVEL = level;
-        this.MAX_LEVEL = maxLevel;
-        this.LEVEL_UP_COST = levelUpCost;
-        this.BUILDING_COST = buildingCost;
+        this.durability = durability;
+        this.maintenanceCost = maintenanceCost;
+        this.level = level;
+        this.maxLevel = maxLevel;
+        this.levelUpCost = levelUpCost;
+        this.buildingCost = buildingCost;
     }
 
     public void levelUp() {
-        if (LEVEL <= MAX_LEVEL) {
-            this.LEVEL++;
-            DURABILITY += 10;
+        if (level <= maxLevel) {
+            this.level++;
+            durability += 10;
         }
     }
 
+    public int getDurability() {
+        return durability;
+    }
+
+    public void setDurability(int durability) {
+        this.durability = durability;
+    }
 }

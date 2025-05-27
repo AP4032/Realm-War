@@ -1,6 +1,6 @@
 package model.units;
 
-import units.Units;
+import model.structures.Structures;
 
 public class SwordMan extends Units {
 
@@ -15,5 +15,14 @@ public class SwordMan extends Units {
             hP = 0;
         }
         target.setHitPoint(hP);
+    }
+
+    @Override
+    public void structAttack(Structures target){
+        int newDurability = target.getDurability() - this.getAttackPower();
+        if( newDurability < 0 ){
+            newDurability = 0;
+        }
+        target.setDurability(newDurability);
     }
 }
