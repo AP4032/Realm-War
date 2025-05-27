@@ -1,5 +1,7 @@
 package model.structures;
 
+import model.Kingdom;
+
 public class Farm extends Structures{
     private int foodPerTurn;
 
@@ -9,10 +11,11 @@ public class Farm extends Structures{
 
     }
 
-//todo
-//    public void produce_food(kingdome){
-//
-//    }
+
+    public void produce_food(Kingdom kingdom){
+        int newFood = kingdom.getFood() + foodPerTurn;
+        kingdom.setFood(newFood);
+    }
 
 
 }
