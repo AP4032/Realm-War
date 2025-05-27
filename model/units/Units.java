@@ -24,9 +24,6 @@ public abstract class Units {
 
     public abstract void structAttack(Structures target);
 
-    //public abstract Units deleteUnits(Units unit);
-    //public abstract Structures deleteStruct(Structures structure);
-
     public int getHitPoint() {
         return hitPoint;
     }
