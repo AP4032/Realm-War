@@ -9,8 +9,9 @@ public abstract class Units {
     private int payment;
     private int ration;
     private int unitSpace;
+    private boolean moveable;
 
-    public Units(int hitPoint,int movementRange,int attackPower,int attackRange,int payment,int ration,int unitSpace){
+    public Units(int hitPoint,int movementRange,int attackPower,int attackRange,int payment,int ration,int unitSpace,boolean moveable){
         this.hitPoint = hitPoint;
         this.movementRange = movementRange;
         this.attackPower = attackPower;
@@ -18,11 +19,16 @@ public abstract class Units {
         this.payment = payment;
         this.ration = ration;
         this.unitSpace = unitSpace;
+        this.moveable = moveable;
     }
 
     public abstract void attack(Units target);
 
     public abstract void structAttack(Structures target);
+
+    public void cantMove(){this.moveable = false;};
+
+    public void canMove(){this.moveable = true;};
 
     public int getHitPoint() {
         return hitPoint;

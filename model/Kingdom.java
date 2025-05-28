@@ -23,7 +23,6 @@ public class Kingdom {
     }
 
 
-
     public void resources() {
 
         for (Block b : blocks) {

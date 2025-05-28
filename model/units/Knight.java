@@ -6,7 +6,7 @@ import model.structures.Structures;
 public class Knight extends Units {
 
     public Knight(){
-        super(40,4, 5, 5, 5, 6, 1);
+        super(40,4, 5, 5, 5, 6, 1,true);
     }
 
     @Override
