@@ -104,7 +104,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 > building new **MARKET** cost more **GOLD** than the previous one (example: PREVIOUS_BUILDING_COST + 5)
 
 #### ***Tower***
-- it defends it's neighboring kingdom blocks
+- it defends it's neighboring kingdom org.realm_war.Models.blocks
 - lower level **UNITS** cannot get passed the **TOWER**'s blockade
 
 > example: a level 1 tower can restrict a peasant, a level 2 tower can restrict a spearman and peasant, ...
@@ -117,7 +117,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 - BUILDING COST (examlpe: 5 GOLD)
 - LEVEL UP COST (examlpe: 5 GOLD -> 10 GOLD)
 
-### **3. Units**
+### **3. org.realm_war.Models.units**
 - each **UNIT** has a **HIT POINT** of __n__ **HEALTH**
 - each **UNIT** has a **MOVEMENT RANGE** of __n__ **BLOCKS**
 - each **UNIT** has an **ATTACK POWER** of __n__ **DAMAGE**
@@ -155,8 +155,8 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Graphics**
 - The game must use Swing to build an interactive graphical user interface.
 - GUI should allow players to:
-  - View the game board and its blocks, structures, and units
-  - Click/select blocks to build, upgrade, or deploy units
+  - View the game board and its org.realm_war.Models.blocks, structures, and units
+  - Click/select org.realm_war.Models.blocks to build, upgrade, or deploy units
   - Display real-time game stats (e.g., gold, food, unit capacity)
   - Highlight valid actions (e.g., movable units, buildable structures)
 - Animations or visual feedback (e.g., attack effects, unit movement) are encouraged but optional.
@@ -183,7 +183,7 @@ Your mission? **Domainate Your Opponent's Kingdom Before They Dominate Yours!**
 ### **Error Handling and Validation**
 - The program must handle invalid input and unexpected scenarios gracefully.
 - Common errors to manage:
-  - Building structures on invalid blocks
+  - Building structures on invalid org.realm_war.Models.blocks
   - Exceeding unit space or resources
   - Attacking or moving out of turn
   - Saving or loading corrupted data
